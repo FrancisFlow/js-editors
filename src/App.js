@@ -1,9 +1,15 @@
 import './App.css';
+import EditorHolder from './EditorComponents/EditorHolder';
 
 function App() {
   return (
     <div className="App">
-   <h2>It's going to be done. Speechpen</h2>
+      <div className="folder">
+      <EditorHolder />
+
+
+      </div>
+
     </div>
   );
 }
